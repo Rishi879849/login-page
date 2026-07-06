@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --check \"c:/Users/rg879/OneDrive/Desktop/login page/app.js\")",
+      "Bash(python -m http.server 8000 --bind 127.0.0.1)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}  size=%{size_download} bytes\\\\n\" http://127.0.0.1:8000/index.html)",
+      "Bash(curl -s -o /dev/null -w \"style.css: %{http_code}\\\\n\" http://127.0.0.1:8000/style.css)",
+      "Bash(curl -s -o /dev/null -w \"app.js: %{http_code}\\\\n\" http://127.0.0.1:8000/app.js)",
+      "Bash(curl -s -o /dev/null -w \"dtv-logo.png: %{http_code}\\\\n\" http://127.0.0.1:8000/assets/dtv-logo.png)",
+      "Bash(curl -s -o /dev/null -w \"nebula-bg.png: %{http_code}\\\\n\" http://127.0.0.1:8000/assets/nebula-bg.png)",
+      "Bash(node --check app.js)",
+      "Bash(curl -s -o /dev/null -w \"index.html: %{http_code}\\\\n\" http://127.0.0.1:8000/index.html)",
+      "Bash(curl -s -o /dev/null -w \"register.html: %{http_code}\\\\n\" http://127.0.0.1:8000/register.html)"
+    ]
+  }
+}
